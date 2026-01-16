@@ -1,0 +1,20 @@
+# Data files (don't commit large datasets)
+data/*.txt
+data/*.csv
+data/*.tsv
+data/*.soft
+data/*.gz
+data/*.zip
+!data/.gitkeep
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.DS_Store
+.vscode/
+.idea/
